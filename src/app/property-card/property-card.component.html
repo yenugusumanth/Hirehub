@@ -1,1 +1,36 @@
-<p>property-card works!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moved Card</title>
+  <style>
+    .card {
+      margin-top: 150px; 
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card-body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card-body .btn {
+    margin-top: 20px; 
+    }
+
+</style>
+</head>
+<body>
+  <div class="card" style="width: 18rem;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZagXe146n6hneGhH7ZeWEr9QAHh8Pp0MpvA&s" class="card-img-top" alt=".Net" width="100px" height="200px">
+    <div class="card-body">
+      <a href="/property-detail" class="btn btn-primary">click</a>
+      <!-- <button (click)="navigateToOtherPage()" class="btn btn-primary"></button>  -->
+    </div>
+  </div>
+</body>
+</html>
